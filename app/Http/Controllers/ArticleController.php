@@ -44,7 +44,7 @@ class ArticleController extends Controller
 
         $article ->save();
 
-        return redirect('/ajouter')->with('status',"L'article a bien été ajouté avec succès");
+        return redirect('/ajouter')->with('status',"L'article a  été ajouté avec succès");
 
     }
 
