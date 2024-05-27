@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nom');
             $table->string('description');
-            $table->string('image');
+            $table->longText('image');
             $table->boolean('is_a_la_une')->default(false);;
             $table->date('date_de_creation');
             $table->timestamps(); // Ajoute les colonnes 'created_at' et 'updated_at'
